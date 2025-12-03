@@ -1,4 +1,4 @@
-import IBSheetLoader from '@ibsheet/loader';
+import loader from '@ibsheet/loader';
 import Highcharts from 'highcharts/highstock';
 import 'highcharts/highcharts-more';
 import 'highcharts/modules/series-label';
@@ -12,6 +12,6 @@ const ibchartLib = {
 }
 
 // 로더 config
-IBSheetLoader.config({
+loader.config({
   registry: [ibchartLib]
 });
